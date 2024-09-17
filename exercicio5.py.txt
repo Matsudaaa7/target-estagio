@@ -1,0 +1,12 @@
+def inverter_string(s):
+    resultado = ""
+    for char in s:
+        resultado = char + resultado
+    return resultado
+
+# Entrada do usuário
+string = input("Digite uma string: ")
+
+# Inverter a string
+string_invertida = inverter_string(string)
+print(f"String invertida: {string_invertida}")
